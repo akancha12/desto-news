@@ -10,3 +10,33 @@ UI is made using HTML, CSS and JavaScript. The sub-modules include Authenticatio
 Backend module is developed using a python frameowrk known as Django. It further includes sub-modules like Tweepy authentication, Tweets extraction, Tweets Processing, Sentiment Analysis, Translator, etc. 
 
 The main file for tweet extraction and processing is news/views.py .
+
+In order to run this project on your machine, follow the following steps:
+
++ Install a virtual environment wrapper, if you don't have one.
+
+  ```
+  pip install virtualenvwrapper-win
+  ```
+  (For Windows)
+      
++ Make a virtual environment
+  ```
+  mkvirtualenv nlp
+  ```
++ Install Django
+  ```
+  pip install django
+  ```
++ You can check the version of django using the following command,
+  ```
+  django-admin --version
+  ```
++ You can install other api and libraries required to run this project, using the command like the ones listed below.
+  ```
+  pip install tweepy
+  pip install textblob
+  pip install <name_of_the_library>
+  ```
+  
+[Click here](https://youtu.be/VlEOutfMIdU) to watch the video demo of the project which explains the whole code and working demo of the project.
